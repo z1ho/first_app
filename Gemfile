@@ -6,7 +6,7 @@ gem 'rails', '4.0.8'
 
 # [[ZWH]] fixed bundle install issue by changing sqlite3 version to '1.3.11' instead of '1.3.10'
 group :development do
-  gem 'sqlite3', '1.3.11'
+  gem 'sqlite3'
 end
 
 gem 'sass-rails', '4.0.3'
